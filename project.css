@@ -1,0 +1,65 @@
+body{
+    font-family: sans-serif;
+}
+.container1{
+    width: 97%;
+    margin:0 auto;
+}
+img{
+  width: 120px;
+  height: 50px;
+}
+.son{
+    padding-left: 25rem;
+    padding-top: 5rem;
+    background-image: url(image/foodpal4.jpeg);
+    height: 40rem;
+    width: 98%;
+    margin:0 auto;
+}
+.order {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;}
+.order:hover{
+    background-color: rgb(255, 136, 0);
+}
+.kontena{
+ background-color: rgb(243, 232, 212);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  padding-top: 3rem;
+}
+.plus{
+ background-color: wheat;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px; 
+  padding-top: 3rem;
+}
+.kaar{
+    .kar{
+        background-color: #333; /* Footer background color */
+        color: white; /* Footer text color */
+        text-align: center; /* Center-align text */
+        padding: 20px; /* Padding for footer content */
+        position: fixed; /* Fixed position at the bottom */
+        width: 100%; /* Full width */
+        bottom: 0; /* Stick to the bottom */
+      }
+      
+      .social-icons .icon {
+        color: white; /* Icon color */
+        font-size: 24px; /* Icon size */
+        margin: 0 10px; /* Margin between icons */
+      }
+      
+      .social-icons .icon:hover {
+        color: #55acee; /* Change color on hover (e.g., for Twitter icon) */
+      }
+}
+

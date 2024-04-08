@@ -1,0 +1,65 @@
+body{
+    font-family: sans-serif;
+}
+.container{
+  width: 97%;
+  margin:0 auto;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255,255,255);
+    padding-right: 30px;
+    padding-left: 30px;}
+ a:link{text-decoration: none;
+         color: black;
+        }   
+.navul {
+    display: flex;
+    }
+.navul li{
+    letter-spacing: 1.5px;
+    font-size: 11.5px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px 15px;
+    opacity: 0.5;
+    }
+.button {
+  background-color: black;
+  color: white;
+  padding: 12px 22px;
+  border: none;
+  cursor: pointer;
+  font-size: smaller;
+  letter-spacing: 1.5px;
+  }
+  .button:hover {
+    background-color: rgb(51, 50, 50);
+  }
+  .can{
+    font-family: sans-serif;
+    color: rgb(15, 15, 15);
+    text-decoration: underline;
+  }
+  .laps{
+    background-image: url(image/img1.svg);
+    margin-top: 20px;
+    height: 40rem;
+  }
+  h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+  }
+  p{
+    font-size: 19px;
+    color: rgb(211, 211, 211);
+  }
+ .shap{
+  background-color: white;
+  color:rgb(31, 30, 30)
+  
+ }
